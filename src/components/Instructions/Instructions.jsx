@@ -1,9 +1,9 @@
 import * as React from "react"
 import "./Instructions.css"
 
-export function Instructions(props) {
+export function Instructions({instructions}) {
   return (
-    <aside className="instructions">
+    <aside className="instructions">{instructions}
       <p></p>
     </aside>
   )
